@@ -1,7 +1,6 @@
 # AI-Lab-Mids
 AI-Based Graph Search Algorithms Simulator
 
-# AI-Based Graph Search Algorithms Simulator
 
 ## Cybersecurity Attack Path Visualization System
 
@@ -176,6 +175,7 @@ Open the notebook in:
 - Google Colab
 - Jupyter Notebook
 
+
 Then run all cells sequentially.
 
 ---
@@ -206,17 +206,17 @@ COMSATS University Islamabad, Abbottabad Campus
 Spring 2026
 
 ---
+#  Supervisor
+
+- Ma'am Zeenat Zulfiqar
+
+
+
+---
 
 #  Author
 
 - Nida Riaz
-
----
-
-#  Supervisor
-
-Ma'am Zeenat Zulfiqar
-
 ---
 
 #  Future Improvements
@@ -242,19 +242,6 @@ Through this project, students can understand:
 - Decision-making algorithms
 - Network vulnerability analysis
 
----
-
-#  Screenshots
-
-Add screenshots of:
-- BFS Visualization
-- DFS Output
-- UCS Path
-- Hill Climbing Failure
-- Minimax Tree
-- Alpha-Beta Pruning
-
-inside the `/screenshots` folder.
 
 ---
 
@@ -272,11 +259,3 @@ This project is developed for educational and academic purposes.
 
 ---
 
-#  Acknowledgements
-
-Special thanks to:
-- COMSATS University Islamabad
-- Artificial Intelligence Lab
-- NetworkX Documentation
-- Matplotlib Community
-- HTML/CSS/JS
