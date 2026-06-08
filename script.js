@@ -1,4 +1,3 @@
-/* ========================= script.js ========================= */
 
 const canvas =
     document.getElementById("graphCanvas");
@@ -6,7 +5,6 @@ const canvas =
 const ctx =
     canvas.getContext("2d");
 
-/* ================= TREE ================= */
 
 const tree = {
 
@@ -49,7 +47,6 @@ const tree = {
     ]
 };
 
-/* ================= POSITIONS ================= */
 
 const positions = {
 
@@ -70,7 +67,6 @@ const positions = {
 
 let highlightedPath = [];
 
-/* ================= DRAW TREE ================= */
 
 function drawTree() {
 
@@ -86,7 +82,6 @@ function drawTree() {
     drawNodes();
 }
 
-/* ================= DRAW CONNECTIONS ================= */
 
 function drawConnections(node) {
 
@@ -132,7 +127,6 @@ function drawConnections(node) {
     }
 }
 
-/* ================= DRAW NODES ================= */
 
 function drawNodes() {
 
