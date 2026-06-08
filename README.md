@@ -73,7 +73,7 @@ by implementing and visualizing multiple AI search algorithms on a simulated cyb
 
 ---
 
-# 🌐 Cybersecurity Network Model
+#  Cybersecurity Network Model
 
 The network graph contains:
 
@@ -93,7 +93,7 @@ Each edge contains a traversal cost representing:
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 - Simulate real-world cyber attack propagation
 - Apply AI search algorithms to cybersecurity problems
@@ -169,7 +169,7 @@ pip install networkx matplotlib pandas
 
 ---
 
-# ▶️ Run the Project
+#  Run the Project
 
 Open the notebook in:
 - Google Colab
@@ -180,7 +180,7 @@ Then run all cells sequentially.
 
 ---
 
-# 🌍 Live Project Access
+#  Live Project Access
 
 ## BFS, DFS, UCS & A* Visualization
 🔗 https://algorithms-implementatiom-c49877.netlify.app/
@@ -230,7 +230,7 @@ Spring 2026
 
 ---
 
-# 📚 Learning Outcomes
+#  Learning Outcomes
 
 Through this project, students can understand:
 
