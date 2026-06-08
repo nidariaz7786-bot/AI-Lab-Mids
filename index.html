@@ -1,0 +1,100 @@
+<!-- ========================= index.html ========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minimax & Alpha-Beta Simulation</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- ================= SIDEBAR ================= -->
+
+        <div class="sidebar">
+
+            <h1>AI DEFENSE SYSTEM</h1>
+
+            <div class="card">
+
+                <h3>Select Algorithm</h3>
+
+                <select id="algorithm">
+
+                    <option value="minimax">
+                        Minimax
+                    </option>
+
+                    <option value="alphabeta">
+                        Alpha Beta Pruning
+                    </option>
+
+                </select>
+
+                <button onclick="runAlgorithm()">
+                    RUN SIMULATION
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Execution Details</h3>
+
+                <p>
+                    <strong>Best Path:</strong>
+                </p>
+
+                <div id="pathBox">
+                    -
+                </div>
+
+                <p>
+                    <strong>Utility Value:</strong>
+                    <span id="utility">0</span>
+                </p>
+
+                <p>
+                    <strong>Nodes Expanded:</strong>
+                    <span id="expanded">0</span>
+                </p>
+
+                <p>
+                    <strong>Execution Time:</strong>
+                    <span id="time">0</span> ms
+                </p>
+
+                <p>
+                    <strong>Complexity:</strong>
+                    <span id="complexity">-</span>
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ================= GRAPH AREA ================= -->
+
+        <div class="graph-area">
+
+            <canvas id="graphCanvas" width="1000" height="650">
+            </canvas>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
